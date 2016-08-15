@@ -1,0 +1,556 @@
+body{
+	height: 100%;
+	    background-color: #F1F1F1;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Roboto Slab', serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #404040;
+}
+
+section{
+	padding: 90px 0px;
+}
+ul#menu-top-menu{
+    display: block;
+    width: 100%;
+}
+
+ul#menu-top-menu li{
+    padding: 0px;
+}
+.header-wrap{
+	clear: both;
+	overflow: auto;
+}
+
+
+	.single .content img{
+		width: 80%;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+
+.top-section{
+	background-color: black;
+	color: white;
+	width: 100%;
+	overflow: auto;
+	padding: 5px 0px;
+}
+
+.item {
+    height: 460px;
+    background-position: left center;
+    background-size: cover;
+}
+
+.news-wrap.content a {
+    color: white;
+}
+
+.nyhetsarkiv h1{
+	margin-bottom: 50px;
+}
+
+span.hours-title {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+
+.news-wrap.content {
+    overflow: auto;
+}
+
+.news-item{
+	border-top: 2px solid black;
+	/* border-bottom: 2px solid black; */
+}
+
+.news-item:last-child{
+	border-bottom: 2px solid black;
+}
+.news-wrap.content p {
+    color: white;
+}
+
+.news-wrap.content h1 {position: absolute;top: -110px;/* left: 84px; */padding: 10px 15px;background-color: black;border-bottom: 5px solid white;padding-top: 20px;font-weight: 600;border-left: 5px solid white;border-right: 5px solid white;font-family: "open sans";color: white;font-size: 35px;}
+
+.nyhetsarkiv .date-section{
+	color: black;
+	border-top: 2px solid white;
+	padding: 10px 0px;
+}
+.content.kontakta-oss {
+    width: 50%;
+    /* padding: 0px 15px; */
+    float: left;
+}
+.date-section{
+	color: white;
+	border-top: 2px solid white;
+	padding: 10px 0px;
+}
+.kontakt h1{
+	margin-top: 0px;
+}
+.form{
+	width: 50%;
+}
+
+.map {
+	margin-top: 50px;
+    width: 100%;
+}
+.map p{
+	margin: 0px;
+}
+.map iframe{
+	width: 100%;
+}
+
+.auctionnet h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+}
+
+.auctionnet img {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.news-wrap-archive.content{
+	overflow: auto;
+}
+
+.news-section{
+	background-color: #424242;
+	position: relative;
+}
+
+
+.news-wrap.content h2 {
+    color: white;
+    font-size: 25px;
+    font-family: tahoma;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.slidetitle h1 {
+	font-size: 24px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid white;
+}
+
+.fb{
+	width: 60%;
+	text-align: center;
+	float: left;
+	font-size: 15px;
+}
+
+.fb i{
+	color: white;
+}
+.facebook{
+	float: right;
+	width: 35%;
+}
+
+.facebook iframe{
+	width: 100%;
+}
+
+section.gray-section .content {
+    width: 50%;
+    margin: 0px 80px;
+    float: left;
+    color: black;
+}
+
+.clock{
+	width: 40%;
+	text-align: center;
+	float: right;
+	font-size: 15px;
+}
+
+.clock i{
+	margin-right: 10px;
+}
+
+.logo{
+	width: 60%;
+	float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.hours{
+	width: 40%;
+	float: left;
+	text-align: center;
+	color: white;
+	padding: 37px 0px;
+	/* padding-top: 35px; */
+}
+
+.hours-content{
+	font-size: 18px;
+	font-weight: 300px;
+}
+
+.hours-wrap {
+    padding: 5px 0px;
+    margin: 5px 0px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.21);
+}
+.om-oss img{
+	width: 40%;
+	display: block;
+	height: auto;
+}
+
+.hours-centering {
+    width: 75%;
+    font-size: 15px;
+    margin: auto;
+}
+
+.bottom-section{
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+.nav{
+	display: inline-block;
+}
+
+.nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav li{
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+
+.nav li:first-child{
+	padding-left: 0px;
+}
+
+.nav li a{
+	color: white;
+	font-size: 18px;
+}
+
+.slideimg img {
+	height: auto;
+    width: 100%;
+    max-height: 600px;
+}
+
+.nav li.current_page_item > a{
+	background-color: white;
+	color: black;
+}
+
+.nav > li > a{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ .dropdown-menu li a{
+ 	color: black;
+ }
+
+ .nav > li > a:hover, .nav > li > a:focus{
+ 	color: black;
+ }
+
+
+.owl-theme .owl-controls {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    left: 0px;
+}
+
+.owl-page{
+	border-radius: 0px;
+
+}
+
+.owl-page span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #FEF200;
+    border-radius: 0;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    margin: 5px;
+    opacity: 1;
+    width: 10px;
+}
+
+
+.slidebox{
+	/* position: relative; */
+}.slidewrap{
+	border: 1px solid white;
+	position: absolute;
+	bottom: 59px;
+	right: 58px;
+	width: 30%;
+	padding: 10px 50px;
+	/* text-align: center; */
+	/* right: 0px; */
+	color: white;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.42);
+}
+
+.slidewrap i{
+	display: block;
+	margin-right: 10px;
+	float: left;
+	display: none;
+}
+
+#slider{
+	border-bottom: 2px solid black;
+}
+
+.slidetitle {
+    text-align: center;
+}
+
+.slidewrap a{
+	color: white;
+	display: block;
+}
+.slidetext p {
+    font-size: 13px;
+}
+.title{
+
+}
+.content h1{
+	    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+.content {
+    width: 80%;
+    margin: auto;
+}
+.gray-section{
+	background-color: #FFFFFF;
+	color: white;
+	overflow: auto;
+	border-bottom: 5px solid black;
+}
+
+.auctionnet {
+    margin-top: 120px;
+    padding-top: 30px;
+    border-top: 5px solid black;
+}
+.auctionnet div{
+	margin-bottom: 25px;
+}
+.white-section{
+	background-color: white;
+	color: #404040;
+}
+
+.owl-pagination{
+	display: block;
+}
+
+.owl-theme .owl-controls{
+	margin: 0px!important;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+	
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.footer_text{
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+/*RESPONSIVE*/
+
+@media(max-width: 1200px){
+
+	.facebook{
+		width: 40%;
+	}
+
+	section.gray-section .content{
+		width: 45%;
+		margin: auto;
+		display: block;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+@media(max-width: 990px){
+
+	.logo{
+		width: 100%;
+	}
+
+	.hours{
+		width: 100%;
+	}
+	.fb{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+.clock {
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* padding: 15px 0px; */
+    padding-bottom: 10px;
+    /* float: right; */
+    font-size: 20px;
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.21);
+}
+
+.container{
+	padding: 0px !important;
+}
+
+}
+
+@media (max-width: 770px){
+
+	.clock{
+		font-size: 18px;
+	}
+
+	.hours-content{
+		font-size: 15px;
+	}
+
+	section.gray-section .content{
+		width: 100%;
+	}
+
+	section{
+		padding:70px 0px;
+	}
+
+	.facebook{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.facebook iframe{
+		display: block;
+		width: 340px;
+		margin: auto;
+	}
+	.auctionnet{
+		margin-top: 50px;
+	}
+
+	.white-section img{
+		width: 100%;
+		display: block;
+	}
+
+	.news-wrap.content{
+		margin-bottom: 70px;
+	}
+
+	.white-section .col-md-6{
+
+	}
+
+	.content h1{
+		font-size: 2em;
+	}
+
+
+	.slidewrap {
+    border: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    /* width: 70%; */
+    padding: 10px 50px;
+    text-align: center;
+    /* right: 0px; */
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    overflow: auto;
+    background-color: rgba(0,0,0,0);
+}
+
+.nav li{
+	float: none;
+}
+}
+
+@media(max-width: 500px){
+.auctionnet img{
+	width: 100%;
+}
+
+.news-wrap.content h1{
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+.news-section{
+	margin-top: 20px;
+}
+
+section{
+	padding: 30px 0px;
+}
+
+}
+
+@media(max-width: 340px){
+	.facebook iframe{
+		width: 100%;
+	}
+}
