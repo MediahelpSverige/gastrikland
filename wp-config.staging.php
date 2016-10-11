@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gastrikland');
+define('DB_NAME', '180958-gastrikland');
 
 /** MySQL database username */
-define('DB_USER', 'Mediahelp');
+define('DB_USER', '180958_ll34424');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'steel1992');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'gastrikland-180958.mysql.binero.se');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -54,6 +54,12 @@ define('AUTH_SALT',        'put your unique phrase here');
 define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
+
+
+define('WP_HOME', 'http://gastrikland.mediahelpcrm.se/');
+
+define('WP_SITEURL', 'http://gastrikland.mediahelpcrm.se/');
+
 
 /**#@-*/
 
