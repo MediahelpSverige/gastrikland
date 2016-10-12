@@ -729,9 +729,9 @@ section.gray-section .content {
 }
 
 .gray-section{
-background-color: #FFFFFF;
-overflow: hidden;
-border-bottom: 5px solid black;
+background-color: #FFFFFF;
+overflow: hidden;
+border-bottom: 5px solid black;
 }
 
 
@@ -1131,3 +1131,8 @@ margin-top: 0px;
 .welcome-text h1:before{content: "";position: absolute;left: 50%;bottom: 0px;background-color: black;border-radius: 20%;height: 12px;width: 12px;margin-left: -6px;}
 
 .welcome-text:before{content: "";position: absolute;right: 45%;bottom: 6px;background-color: black;/* height: 30px; *//* width: 30px; *//* margin-left: -15px; */height: 2px;width: 30px;}
+
+
+body div#auctionet-wrapper #auctionet-header{
+	margin-bottom: 35px;
+}
