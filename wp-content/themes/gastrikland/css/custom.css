@@ -391,11 +391,8 @@ section.gray-section .content {
 
 
 .logo{
-
-	width: 60%;
-
-	float: left;
-
+width: 40%;
+float: left;
 }
 
 
@@ -409,19 +406,12 @@ section.gray-section .content {
 
 
 .hours{
-
-	width: 40%;
-
-	float: left;
-
-	text-align: center;
-
-	color: white;
-
-	padding: 37px 0px;
-
-	/* padding-top: 35px; */
-
+width: 50%;
+float: right;
+text-align: center;
+color: white;
+/* padding: 37px 0px; */
+padding-top: 8px;
 }
 
 
@@ -437,13 +427,9 @@ section.gray-section .content {
 
 
 .hours-wrap {
-
-    padding: 5px 0px;
-
-    margin: 5px 0px;
-
-    border-bottom: 1px solid rgba(187, 187, 187, 0.21);
-
+padding: 3px 0px;
+margin: 5px 0px;
+/* border-bottom: 1px solid rgba(222, 222, 222, 0.09); */
 }
 
 .om-oss img{
@@ -459,13 +445,10 @@ section.gray-section .content {
 
 
 .hours-centering {
-
-    width: 75%;
-
-    font-size: 15px;
-
-    margin: auto;
-
+width: 60%;
+font-size: 15px;
+margin: auto;
+/* float: right; */
 }
 
 
