@@ -30,7 +30,7 @@ if ( have_posts() ) {
 
 		<script id="auctionet-embed">
   auctionet.init({
-    companyId: 52,
+    companyId: 72,
     locale: "sv",
     howManyItems: 6,
     heading: 'Våra senaste auktioner',
